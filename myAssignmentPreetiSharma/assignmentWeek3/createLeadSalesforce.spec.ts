@@ -1,3 +1,22 @@
+// Assignment: 1 Create Lead
+// 1. Login to https://login.salesforce.com
+// 2. Click on toggle menu button from the left corner
+// 3. Click view All and click Sales from App Launcher
+// 4. Click on Leads tab
+// 5. Click on New button
+// 6. Select Salutation dropdown
+// 7. Enter the Last Name
+// 8. Enter the Company Name
+// 9. Click Save and Verify Leads name created
+
+// For Salesforce : use below credentials 
+
+// https://login.salesforce.com/?locale=in
+// Sample credentials :
+// Username:dilipkumar.rajendran@testleaf.com
+// Password: TestLeaf@2025
+
+
 import { test, expect } from '@playwright/test'
 
 test('Create Lead in Salesforce', async ({ page }) => {

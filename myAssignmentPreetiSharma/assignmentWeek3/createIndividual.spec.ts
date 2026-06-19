@@ -1,3 +1,14 @@
+// Assignment: 3 Create Individuals
+// Test Steps:
+// 1. Login to https://login.salesforce.com
+// 2. Click on the toggle menu button from the left corner
+// 3. Click View All and click Individuals from App Launcher
+// 4. Click on the Dropdown icon in the Individuals tab
+// 5. Click on New Individual
+// 6. Enter the Last Name
+// 7. Click save and verify Individuals Name
+
+
 import { test, expect } from '@playwright/test'
 
 test('Create Individual in Salesforce', async ({ page }) => {
