@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Chrome_1 = require("./Chrome");
+const Edge_1 = require("./Edge");
+const chrome = new Chrome_1.Chrome("Chrome", 120);
+chrome.openURL();
+chrome.navigateBack();
+chrome.closeBrowser();
+chrome.openIncognito();
+chrome.clearCache();
+console.log("----------------");
+const edge = new Edge_1.Edge("Edge", 121);
+edge.openURL();
+edge.navigateBack();
+edge.closeBrowser();
+edge.takeSnap();
+edge.clearCookies();
+console.log("----------------");
