@@ -1,0 +1,12 @@
+$kind: collection
+description: SalesForce API's to perform CRUD Operations on Leads and Accounts
+variables:
+  token: ""
+  lead_ID: ""
+  account_id: ""
+auth:
+  - id: 7355b484-7ed6-4aa7-a64c-769ef684f4e6
+    type: bearer
+    name: bearer auth
+    credentials:
+      token: "{{token}}"

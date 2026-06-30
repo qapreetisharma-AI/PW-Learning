@@ -1,0 +1,17 @@
+# Use this workspace to collaborate
+workspace:
+  id: 0316a6b7-fff1-4507-8be8-0ea0b991efa9
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ..\postman\collections\Salesforce API Copy: c2750e72-e40b-4efa-8384-acb656d31a3b
+    ..\postman\collections\Salesforce API Copy 2: fe6893ca-a075-4080-bb38-692fb9e332e3
+    ..\postman\collections\Salesforce API: 2262cd93-c416-42e0-a025-207e95b2a27d
+
+# All resources in the `postman/` folder are automatically registered in Local View.
+# Point to additional files outside the `postman/` folder to register them individually. Example:
+#localResources:
+#  collections:
+#    - ../tests/E2E Test Collection/

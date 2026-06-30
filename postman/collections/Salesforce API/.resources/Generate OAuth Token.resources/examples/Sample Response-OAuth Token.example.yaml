@@ -1,0 +1,39 @@
+$kind: http-example
+request:
+  url: https://login.salesforce.com/services/oauth2/token
+  method: POST
+  body:
+    type: urlencoded
+    content:
+      grant_type: password
+      client_id: "{{salesforce_consumer_key_02yx}}"
+      client_secret: 79FFF874D54193B377A60354C71CBBE83120AD28A5D6BC536D2F68C94645DE98
+      username: ranjini.r@testleaf.com
+      password: Testleaf$321
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Date: Fri, 18 Aug 2023 07:32:16 GMT
+    Strict-Transport-Security: max-age=63072000; includeSubDomains
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+    Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+    X-ReadOnlyMode: "false"
+    Content-Type: application/json;charset=UTF-8
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+    Transfer-Encoding: chunked
+  body:
+    type: json
+    content: |-
+      {
+          "access_token": "{{salesforce_access_token_0cvn}}",
+          "instance_url": "https://testleaf30-dev-ed.develop.my.salesforce.com",
+          "id": "https://login.salesforce.com/id/00D5j00000C8pLOEAZ/0055j0000080rEbAAI",
+          "token_type": "Bearer",
+          "issued_at": "1692343936897",
+          "signature": "9EhTlZnZUI4qZ8ru7IPx6hMBTapEE5J4K7zyRZ9Gdj0="
+      }
+order: 1000
